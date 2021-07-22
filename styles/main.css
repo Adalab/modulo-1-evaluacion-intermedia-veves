@@ -42,6 +42,7 @@ body{
     align-items: center;
     justify-content: center;
     margin-top:150px;
+    overflow: scroll;
 }
 .cuerpo .texto{
     text-align: center;
@@ -60,7 +61,6 @@ body{
         justify-content:center;
         padding-bottom: 13px;
         padding-top: 13px;
-        transform: translate(25%, 0%);
     }
     .cuerpo .texto{
         font-size: 40px;
