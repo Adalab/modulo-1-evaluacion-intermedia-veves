@@ -1,5 +1,6 @@
 body{
     background-color: #3CDBC0;
+    font-family: 'Rubik', sans-serif;
 }
 .cabecera{
     display: flex;
@@ -27,6 +28,9 @@ body{
 
 }
 .menu .tittle{
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
     color:#4a4a4a;
     margin-left: 10px;
     margin-right: 10px;
@@ -39,6 +43,7 @@ body{
     margin-top:150px;
 }
 .cuerpo .texto{
+    font-family: 'Rubik', sans-serif;
     color:#FFFFFF;
     font-size: 30px;
 }
