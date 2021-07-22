@@ -34,6 +34,7 @@ body{
     color:#4a4a4a;
     margin-left: 10px;
     margin-right: 10px;
+    font-size: 16px;
 }
 
 .cuerpo{
@@ -43,7 +44,26 @@ body{
     margin-top:150px;
 }
 .cuerpo .texto{
+    text-align: center;
     font-family: 'Rubik', sans-serif;
     color:#FFFFFF;
     font-size: 30px;
 }
+@media screen and (min-width: 768px) {
+    .cabecera{
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .menu{
+        justify-content:center;
+        padding-bottom: 13px;
+        padding-top: 13px;
+        transform: translate(25%, 0%);
+    }
+    .cuerpo .texto{
+        font-size: 40px;
+    }
+    
+  }
